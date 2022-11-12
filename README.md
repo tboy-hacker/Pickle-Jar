@@ -47,7 +47,7 @@
  - `Kali-Linux`
  - `Arch`
  - `Fedora`
- - `Manjaro`
+ - `Parrot os`
 
 ## [!] Disclaimer
 ***This tool is developed for educational purposes. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of Pickle-Jar!***
