@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Sat Nov 12 10:13:46 2022 as: nmap -sV -O -p1-44 -o pickle-result/nmap.txt 122
+setup_target: failed to determine route to 122 (0.0.0.122)
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Sat Nov 12 10:13:47 2022 -- 0 IP addresses (0 hosts up) scanned in 3.40 seconds

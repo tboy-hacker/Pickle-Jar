@@ -1,0 +1,195 @@
+# Bashter 4.1
+> Web Crawler, Scanner, and Analyzer Framework (Shell-Script based)
+
+![Bashter 4.1](https://raw.githubusercontent.com/zerobyte-id/Bashter/master/Screenshots/tomtom.com-scan.png)
+
+## About:
+Bashter is a tool for scanning a Web-based Application. Bashter is very suitable for doing Bug Bounty or Penentration Testing. It is designed like a framework so you can easily add a script for detect vulnerability.
+
+#### For Example
+To be more powerful, You can add something script (custom) like this:
+
+> modules/form/yourscript.bash {WEB-URL} {SOURCECODE}
+
+> modules/url/yourscript.bash {WEB-URL} {SOURCECODE}
+
+> modules/header/yourscript.bash {WEB-URL} {SOURCECODE}
+
+For the sample, you can follow existing scripts.
+
+#### Disable Script
+You only need to change the extension, for example `.bash` => `.bashx`.
+
+## by Default:
+- Web Crawler
+- Gather Input Form
+- Detect Missconfigured CORS
+- Detect missing X-FRAME-OPTIONS (Clickjacking Potential)
+- Detect Reflected XSS via URL
+- Detect Reflected XSS via Form
+- Detect HTTP Splitting Response via CRLF Injection
+- Detect Open Redirect
+
+## Tested on:
+[![Linux Ubuntu](https://img.shields.io/badge/Linux-Ubuntu-orange.svg)](https://www.ubuntu.com/)
+[![Linux Debian](https://img.shields.io/badge/Linux-Debian-red.svg)](https://www.debian.org/)
+
+## How to Run:
+> `git clone https://github.com/zerobyte-id/Bashter.git`
+
+> `cd Bashter/`
+
+> `bash bashter.bash`
+
+## Notes:
+- This tool will consume a lot of disk usage, so don't forget to housekeep `bashter-tempdata` and` scan-logs`.
+
+## Contributor:
+- Schopath ([@panophan](https://github.com/panophan))
+- Suhada ([@suhada99](https://github.com/suhada99))
+- Abay ([@abaykan](https://github.com/abaykan))
+
+## EOF
+www.zerobyte.id
+
+
+
+#pwnxss
+
+<p align="center">   
+ <img src="images/logo.png" height="200"><br/>
+A powerful XSS scanner made in python 3.7<br/>
+
+
+## Installing 
+
+Requirements: <br/>
+
+<li> BeautifulSoup4 </li>
+
+```bash
+pip install bs4
+```
+<li> requests </li> 
+
+```bash
+pip install requests
+```
+<li> python 3.7 </li>
+<br/>
+Commands:
+
+```bash
+git clone https://github.com/pwn0sec/PwnXSS
+chmod 755 -R PwnXSS
+cd PwnXSS
+python3 pwnxss.py --help 
+```
+## Usage
+Basic usage:
+
+```bash
+python3 pwnxss.py -u http://testphp.vulnweb.com
+```
+<br/>
+Advanced usage:
+
+```bash
+python3 pwnxss.py --help
+```
+
+## Main features
+
+* crawling all links on a website ( crawler engine )
+* POST and GET forms are supported
+* many settings that can be customized
+* Advanced error handling
+* Multiprocessing support.✔️
+* ETC....
+
+
+## Screenshot
+
+<img src="images/screenshot.png">
+
+## Roadmap
+
+v0.3B:
+------
+<li> Added custom options ( --proxy, --user-agent etc... )</li>
+<br/>
+
+v0.3B Patch:
+------
+<li>Added support for ( form method GET ) </li>
+
+v0.4B:
+------
+<li>Improved Error handling</li>
+<li>Now Multiple parameters for GET method is Supported</li>
+
+v0.5 Release (Final):
+------
+* Bug fixed
+* Now cookies is supported. (--cookie {}) 
+## Note
+* Sorry for my bad english 
+* if you run pwnxss on the win10 terminal you will get an untidy output
+* now it doesn't support DOM
+
+
+
+# Crascan
+Crascan is a simple LFI, RFI, RCE, and Joomla Components vulnerability scanner.
+
+
+webpwn3r
+========
+
+This project is not maintained for years, and was written when I started learning Python, but still people likes it :D. it only supports python2.7
+
+WebPwn3r - Web Applications Security Scanner.
+
+By Ebrahim Hegazy - @Zigoo0
+
+Thanks: @lnxg33k, @dia2diab @Aelhemily, @okamalo 
+
+Please send all your feedback and suggestions to: zigoo.blog['at']@gmail.com
+
+How to use:
+
+1- python scan.py
+
+2- The tool will ask you if you want to scan URL or List of urls?
+
+    1- Enter number 1 to scan a URL
+    
+    2- Enter number 2 to scan list of URL's
+    
+3- URL should be a full link with a parameters
+
+.e.g http://localhost/rand/news.php?com=val&id=11&page=24&text=zigoo
+
+same thing with the list of links.
+
+Demo Video: https://www.youtube.com/watch?v=B6kDUk-ehOE
+
+In it’s Current Public [Demo] version, WebPwn3r got below Features:
+
+1- Scan a URL or List of URL’s
+
+2- Detect and Exploit Remote Code  Injection Vulnerabilities.
+
+3- ~ ~ ~ Remote Command  Execution Vulnerabilities.
+
+4- ~ ~ ~ SQL Injection Vulnerabilities.
+
+5- ~ ~ ~ Typical XSS Vulnerabilities.
+
+6- Detect WebKnight WAF.
+
+7- Improved Payloads to bypass Security Filters/WAF’s.
+
+8- Finger-Print the backend Technologies.
+
+More details: http://www.sec-down.com/wordpress/?p=373

@@ -1,0 +1,4 @@
+<form class="pagelayer-contact-form" id="demo-form" name="Demo Form" onsubmit="return pagelayer_contact_submit(this, event)" method="POST">
+<form class="pagelayer-contact-form" id="newsletter-form" name="Newsletter Form" onsubmit="return pagelayer_contact_submit(this, event)" method="POST">
+<form class="pagelayer-contact-form" id="demo-form" name="Demo Form" onsubmit="return pagelayer_contact_submit(this, event)" method="POST">
+<form class="pagelayer-contact-form" id="newsletter-form" name="Newsletter Form" onsubmit="return pagelayer_contact_submit(this, event)" method="POST">

