@@ -4,7 +4,7 @@
 
 ### [√] Description :
 
-***A web hacker best tool if choice.***
+***A web hacker best tool of choice.***
 
 
 ### [+] Installation
