@@ -11,6 +11,9 @@ chmod +x scan.sh
 sudo gem install XSpear
 pip3 install -r requirements.txt
 sudo apt install nyancat -y
+
+
+sudo apt install gnome-terminal -y
 sudo apt install joomscan -y
 sudo apt install wpscan -y
 echo "" "$Green"
